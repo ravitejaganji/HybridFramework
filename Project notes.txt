@@ -1,0 +1,125 @@
+***************************
+Frameworks
+****************************
+
+Data driven Framework
+
+
+src/main/java
+src/main/resources
+src/test/java
+		|
+		base
+			-BaseTest
+		|
+		testscripts
+			- regression
+			- smoke
+			- sprint
+		|
+		pages
+			-LoginPage
+			-Registration
+		|
+		utils
+			- UtilKit
+			- ExtentManger
+		|
+		listeners
+			_MyTestNGListener
+			
+			
+src/test/resources
+		|
+		testdata
+			|
+			excels
+				-MasterTestData.xlsx
+			|
+			jsons
+		|
+		Properties 
+			- config.properties
+			- locators.properties
+			
+			
+screenshots
+
+reports
+
+
+**************************************************
+Data Paramterization is TestNG
+
+DataProvider annotation
+
+@DataProvider
+public Object[][] getTestData()
+{
+
+
+return ;
+
+}
+
+
+************************************************
+Keyword Driven Framework
+************************************************
+
+
+1	start browser	chrome	browser should get started                   ==> startBrowser()
+2	launch app	https://adactinhotelapp.com/	app should get launched  ==> launchApp
+3	"enter username in username                                          ==> type
+textbox"	reyaz0806	"username textbox should accpet the 
+text and display the same"
+4	"enter password in password 										 ==> type
+textbox"	reyaz123	"password textbox should accept the text
+and display as masked"
+5	click on button		login button should be clickable				 ==> click 
+			app should  navigate to "Serach Hotel" Page 				 ==> validateTitle
+
+**********************************************************
+POM - Page Object Model 
+**********************************************************
+It's a design patter applied to framework
+It's not a framework
+
+Page is java class 
+
+- WebElements
+- Methods on WebElements
+
+
+PageFactory 
+	- @FindBy 
+	
+	
+**********************************************
+Project 1
+pure Data driven
+Project 2
+pure keyword driven
+Project 3
+hybrid 
+Project 4 
+hybrid (POM +TestNG)
+************************************************
+
+
+*********************************************
+Extent Reports 
+
+<!-- https://mvnrepository.com/artifact/com.aventstack/extentreports -->
+<dependency>
+    <groupId>com.aventstack</groupId>
+    <artifactId>extentreports</artifactId>
+    <version>5.1.2</version>
+</dependency>
+
+
+ExtentReports
+ExtentTest
+ExtentSparkReporter
+
+https://jenkov.com/tutorials/java-internationalization/simpledateformat.html
