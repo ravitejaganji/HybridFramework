@@ -6,7 +6,8 @@
 </listeners>
   <test thread-count="5" name="Test" >
     <classes>
-           <class name="testscripts.regression.ValidateLoginPOMandDataProvider"/>
+          
+           <class name="testscripts.regression.ValidateLogin"/>
      </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

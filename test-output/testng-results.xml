@@ -1,47 +1,97 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-09-28T09:21:56 IST" name="Suite" finished-at="2024-09-28T09:22:37 IST" duration-ms="40640">
+  <suite started-at="2024-09-29T09:18:42 IST" name="Suite" finished-at="2024-09-29T09:19:15 IST" duration-ms="33364">
     <groups>
     </groups>
-    <test started-at="2024-09-28T09:21:56 IST" name="Test" finished-at="2024-09-28T09:22:37 IST" duration-ms="40640">
-      <class name="testscripts.regression.ValidateLoginPOMandDataProvider">
-        <test-method is-config="true" signature="setUpProps()[pri:0, instance:testscripts.regression.ValidateLoginPOMandDataProvider@61c4eee0]" started-at="2024-09-28T09:21:56 IST" name="setUpProps" finished-at="2024-09-28T09:21:56 IST" duration-ms="321" status="PASS">
+    <test started-at="2024-09-29T09:18:42 IST" name="Test" finished-at="2024-09-29T09:19:15 IST" duration-ms="33364">
+      <class name="testscripts.regression.ValidateLogin">
+        <test-method is-config="true" signature="setUpProps()[pri:0, instance:testscripts.regression.ValidateLogin@14028087]" started-at="2024-09-29T09:18:42 IST" name="setUpProps" finished-at="2024-09-29T09:18:42 IST" duration-ms="237" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpProps -->
-        <test-method is-config="true" signature="setUp(org.testng.ITestContext)[pri:0, instance:testscripts.regression.ValidateLoginPOMandDataProvider@61c4eee0]" started-at="2024-09-28T09:21:57 IST" name="setUp" finished-at="2024-09-28T09:22:02 IST" duration-ms="4690" status="PASS">
+        <test-method is-config="true" signature="setUp(org.testng.ITestContext)[pri:0, instance:testscripts.regression.ValidateLogin@14028087]" started-at="2024-09-29T09:18:42 IST" name="setUp" finished-at="2024-09-29T09:18:47 IST" duration-ms="4977" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@1edccfd4]]>
+                <![CDATA[org.testng.TestRunner@1e957e2f]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="validateLoginTest(java.util.HashMap)[pri:0, instance:testscripts.regression.ValidateLoginPOMandDataProvider@61c4eee0]" started-at="2024-09-28T09:22:02 IST" name="validateLoginTest" data-provider="getData" finished-at="2024-09-28T09:22:33 IST" duration-ms="31051" status="PASS">
+        <test-method signature="validateLoginTest1()[pri:0, instance:testscripts.regression.ValidateLogin@14028087]" started-at="2024-09-29T09:18:47 IST" name="validateLoginTest1" finished-at="2024-09-29T09:18:48 IST" duration-ms="992" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLoginTest1 -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testscripts.regression.ValidateLogin@14028087]" started-at="2024-09-29T09:18:48 IST" name="teardown" finished-at="2024-09-29T09:18:51 IST" duration-ms="3292" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setUp(org.testng.ITestContext)[pri:0, instance:testscripts.regression.ValidateLogin@14028087]" started-at="2024-09-29T09:18:51 IST" name="setUp" finished-at="2024-09-29T09:18:56 IST" duration-ms="4314" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[{expected Title=Adactin.com - Search Hotel, password=reyaz123, username=reyaz0806}]]>
+                <![CDATA[org.testng.TestRunner@1e957e2f]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validateLoginTest -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:testscripts.regression.ValidateLoginPOMandDataProvider@61c4eee0]" started-at="2024-09-28T09:22:33 IST" name="teardown" finished-at="2024-09-28T09:22:36 IST" duration-ms="3320" status="PASS">
+        </test-method> <!-- setUp -->
+        <test-method signature="validateLoginTest2()[pri:0, instance:testscripts.regression.ValidateLogin@14028087]" started-at="2024-09-29T09:18:56 IST" name="validateLoginTest2" finished-at="2024-09-29T09:18:56 IST" duration-ms="636" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLoginTest2 -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testscripts.regression.ValidateLogin@14028087]" started-at="2024-09-29T09:18:57 IST" name="teardown" finished-at="2024-09-29T09:19:00 IST" duration-ms="3319" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="closeReports()[pri:0, instance:testscripts.regression.ValidateLoginPOMandDataProvider@61c4eee0]" started-at="2024-09-28T09:22:36 IST" name="closeReports" finished-at="2024-09-28T09:22:37 IST" duration-ms="315" status="PASS">
+        <test-method is-config="true" signature="setUp(org.testng.ITestContext)[pri:0, instance:testscripts.regression.ValidateLogin@14028087]" started-at="2024-09-29T09:19:00 IST" name="setUp" finished-at="2024-09-29T09:19:03 IST" duration-ms="3103" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@1e957e2f]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateLoginTest3()[pri:0, instance:testscripts.regression.ValidateLogin@14028087]" started-at="2024-09-29T09:19:03 IST" name="validateLoginTest3" finished-at="2024-09-29T09:19:04 IST" duration-ms="732" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLoginTest3 -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testscripts.regression.ValidateLogin@14028087]" started-at="2024-09-29T09:19:04 IST" name="teardown" finished-at="2024-09-29T09:19:08 IST" duration-ms="3293" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setUp(org.testng.ITestContext)[pri:0, instance:testscripts.regression.ValidateLogin@14028087]" started-at="2024-09-29T09:19:08 IST" name="setUp" finished-at="2024-09-29T09:19:11 IST" duration-ms="3005" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@1e957e2f]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateLoginTest4()[pri:0, instance:testscripts.regression.ValidateLogin@14028087]" started-at="2024-09-29T09:19:11 IST" name="validateLoginTest4" finished-at="2024-09-29T09:19:11 IST" duration-ms="695" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLoginTest4 -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testscripts.regression.ValidateLogin@14028087]" started-at="2024-09-29T09:19:12 IST" name="teardown" finished-at="2024-09-29T09:19:15 IST" duration-ms="3294" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="closeReports()[pri:0, instance:testscripts.regression.ValidateLogin@14028087]" started-at="2024-09-29T09:19:15 IST" name="closeReports" finished-at="2024-09-29T09:19:15 IST" duration-ms="327" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeReports -->
-      </class> <!-- testscripts.regression.ValidateLoginPOMandDataProvider -->
+      </class> <!-- testscripts.regression.ValidateLogin -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>
